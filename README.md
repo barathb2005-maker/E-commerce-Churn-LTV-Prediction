@@ -29,6 +29,7 @@ The Python pipeline outputs a cleaned `.csv`, which then feeds into Power BI. Fr
 ![Power BI Dashboard](E-commerce%20Dashboard.png)
 
 ## 📂 Repository Structure
+* `/sql` - Contains the raw SQL extraction script (`sql-project-file.sql`).
 * `/data` - Raw RFM summary plus the final scored `final_dashboard_data.csv`.
 * `/notebooks` - The Jupyter Notebook covering data cleaning, and BG/NBD and Gamma-Gamma model training.
 * `/dashboard` - The `.pbix` Power BI file, along with a high-resolution screenshot of the final dashboard.
